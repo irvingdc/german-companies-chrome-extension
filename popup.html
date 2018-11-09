@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <style>
+        body{
+            padding: 10px 20px 20px;
+        }
+        h1{
+            text-align: center;
+            width:340px;
+            display: block;
+        }
+        button {
+            outline: none;
+            border:none;
+            padding: 10px;
+            width: 150px;
+            margin: 20px auto 50px;
+            border-radius: 3px;
+            font-size: 14px;
+            background: #8cbc3f;
+            color:white;
+            margin: auto;
+            font-weight: bold;
+            display: block;
+            transition: all 0.2s;
+            margin-bottom: 10px;
+        }
+        button:hover{
+            background: #7cac2f;
+        }
+        .grid{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 10px;
+        }
+      </style>
+    </head>
+    <body>
+        <h1 id="title">German Companies Scraper</h1>
+        <div class="grid">
+            <button id="scrape">Start</button>
+            <button id="stop" style="background: #d0ab41;">Stop</button>
+            <button id="results" style="background: #183861;">Show Results</button>
+            <button id="clear" style="background: #d04141;">Clear Results</button>
+        </div>
+        <script src="popup.js"></script>
+    </body>
+  </html>
