@@ -33,10 +33,6 @@ document.querySelector("#results").onclick = () => {
     window.executeFile("results.js")
 }
 
-document.querySelector("#clear").onclick = () => {
-    window.executeFile("clear.js")
-}
-
 document.querySelector("#stop").onclick = () => {
     window.executeFile("stop.js")
 }

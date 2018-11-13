@@ -11,6 +11,5 @@ if(!window.get) window.get = prop => {
     })
 }
 
-window.get("companies").then(companies => console.log("companies",companies))
 window.get("working").then(working => console.log("working",working))
 window.get("pageIndex").then(pageIndex => console.log("pageIndex",pageIndex))
